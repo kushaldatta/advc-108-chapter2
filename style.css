@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+#header {
+    background-color: darkgrey;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#header h1 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+#header h3 {
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#button button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 119, 255);
+    font-size: 20px;
+    border-color: black;
+}
+
+#button button:hover {
+    color: rgb(0, 119, 255);
+    background-color: white;
+}
+
+#main h3, #main h4 {
+    font-family: cursive;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(58, 155, 95);
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(150, 141, 141);
+}
